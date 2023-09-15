@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Courses from './components/Courses/Courses'
 import Header from './components/Header/Header'
+import SelectedCourses from './components/SelectedCourses/SelectedCourses';
 
 function App() {
 
@@ -17,11 +18,12 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className='w-11/12 mx-auto'>
+      <main className='flex gap-5 w-11/12 mx-auto'>
         <div className='md:w-3/4'>
           <Courses handleSelect={handleSelect}></Courses>
         </div>
         <div className='md:w-1/4'>
+          <SelectedCourses selectedCourses={selectedCourses}></SelectedCourses>
         </div>
       </main>
     </>

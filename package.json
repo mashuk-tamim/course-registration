@@ -10,15 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-=======
+    "react-dom": "^18.2.0",
     "daisyui": "^3.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0"
->>>>>>> 38cf8297fbe7dfabbf0c755e7d18a72884023449
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
