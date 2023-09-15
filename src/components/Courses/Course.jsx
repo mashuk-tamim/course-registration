@@ -2,11 +2,18 @@ import PropTypes from 'prop-types';
 
 Course.propTypes = {
     course: PropTypes.object.isRequired,
+<<<<<<< HEAD
     handleSelect: PropTypes.func.isRequired,
 };
 
 function Course({ course, handleSelect }) {
     // console.log(course)
+=======
+};
+
+function Course({ course }) {
+    console.log(course)
+>>>>>>> 38cf8297fbe7dfabbf0c755e7d18a72884023449
     const { code, cover, title, details, credit, price } = course;
     return (
         <div className='bg-white rounded-lg p-3 space-y-3 text-[#1c1b1b99]'>
@@ -27,7 +34,11 @@ function Course({ course, handleSelect }) {
                     Credit: {credit}hr
                 </p>
             </div>
+<<<<<<< HEAD
             <button onClick={()=>handleSelect(course)} className='text-white font-semibold bg-[#2F80ED] rounded-md py-3 w-full mx-auto'>Select</button>
+=======
+            <button className='text-white font-semibold bg-[#2F80ED] rounded-md py-3 w-full mx-auto'>Select</button>
+>>>>>>> 38cf8297fbe7dfabbf0c755e7d18a72884023449
         </div>
     );
 }
