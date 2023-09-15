@@ -1,0 +1,66 @@
+[
+    {
+      "cover_img": "https://i.ibb.co/Xs7vkMw/Rectangle-2.png",
+      "course_name": "Python Object-Oriented Programming",
+      "course_details": "Master object-oriented programming principles in Python. Learn to create and work with classes and objects.",
+      "credit_hours": 3,
+      "price": 199.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/xHd7gYQ/Rectangle-2-1.png",
+      "course_name": "Database Management Systems",
+      "course_details": "Comprehensive study of database management systems, SQL, and data modeling. Gain expertise in database design.",
+      "credit_hours": 4,
+      "price": 249.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/vZXnnJ1/Rectangle-2-2.png",
+      "course_name": "C Programming",
+      "course_details": "Introduction to the C programming language. Cover syntax, data types, and basic control structures.",
+      "credit_hours": 3,
+      "price": 179.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/482hrkt/Rectangle-2-3.png",
+      "course_name": "Algorithms and Data Structures",
+      "course_details": "In-depth exploration of algorithms and data structures. Solve complex problems and analyze algorithmic efficiency.",
+      "credit_hours": 4,
+      "price": 299.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/nRZW3Pd/Rectangle-2-4.png",
+      "course_name": "C++ Programming",
+      "course_details": "Learn C++ programming with a focus on object-oriented features. Build advanced software applications.",
+      "credit_hours": 3,
+      "price": 199.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/XFf1r0T/Rectangle-2-5.png",
+      "course_name": "Software Engineering Practices",
+      "course_details": "Adopt industry-standard software engineering practices, including project management and quality assurance.",
+      "credit_hours": 4,
+      "price": 279.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/GvsT91F/Rectangle-2-6.png",
+      "course_name": "Problem Solving with Algorithms",
+      "course_details": "Develop strong problem-solving skills using algorithmic techniques. Apply algorithms to various domains.",
+      "credit_hours": 3,
+      "price": 229.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/gZbGkpF/Rectangle-3.png",
+      "course_name": "Data Structures Fundamentals",
+      "course_details": "Explore fundamental data structures such as arrays, linked lists, and trees. Master data organization and manipulation.",
+      "credit_hours": 3,
+      "price": 199.99
+    },
+    {
+      "cover_img": "https://i.ibb.co/k9RhMbH/Rectangle-3-1.png",
+      "course_name": "AWS Cloud Services",
+      "course_details": "Get hands-on experience with Amazon Web Services (AWS). Learn to deploy and manage cloud-based applications.",
+      "credit_hours": 4,
+      "price": 349.99
+    }
+  ]
+  
