@@ -8,7 +8,7 @@ Course.propTypes = {
 
 function Course({ course, handleSelect }) {
     // console.log(course)
-    const { code, cover, title, details, credit, price } = course;
+    const { cover, title, details, credit, price } = course;
     return (
         <div className='bg-white rounded-lg p-3 space-y-3 text-[#1c1b1b99] h-auto'>
             <img className='w-full' src={cover} alt={title} />
@@ -28,7 +28,7 @@ function Course({ course, handleSelect }) {
                     Credit: {credit}hr
                 </p>
             </div>
-            <button onClick={()=>handleSelect(course)} className='text-white font-semibold bg-[#2F80ED] rounded-md py-3 w-full mx-auto'>Select</button>
+            <button onClick={()=>handleSelect(course, course.credit, course.price)} className='text-white font-semibold bg-[#2F80ED] rounded-md py-3 w-full mx-auto'>Select</button>
         </div>
     );
 }

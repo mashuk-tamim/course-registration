@@ -8,11 +8,21 @@ function App() {
 
   const [selectedCourses, setSelectedCourses] = useState([]);
 
-  const handleSelect = (course) => {
-    console.log(course);
+  const [creditTotal, setCreditTotal] = useState(0);
+
+  const [priceTotal, setPriceTotal] = useState(0);
+
+  const handleSelect = (course, credit, price) => {
+    // console.log(course, credit, price);
     const newSelectedCourses = [...selectedCourses, course];
     setSelectedCourses(newSelectedCourses);
-    console.log(selectedCourses);
+
+    // console.log(selectedCourses);
+    const newCreditTotal = creditTotal + credit;
+    setCreditTotal(newCreditTotal);
+
+    const newPriceTotal = priceTotal + price;
+    setPriceTotal(newPriceTotal);
   }
 
   return (
@@ -23,7 +33,7 @@ function App() {
           <Courses handleSelect={handleSelect}></Courses>
         </div>
         <div className='md:w-1/4'>
-          <SelectedCourses selectedCourses={selectedCourses}></SelectedCourses>
+          <SelectedCourses selectedCourses={selectedCourses} creditTotal={creditTotal} priceTotal={priceTotal}></SelectedCourses>
         </div>
       </main>
     </>
