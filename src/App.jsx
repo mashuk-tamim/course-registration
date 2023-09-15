@@ -13,10 +13,6 @@ function App() {
     setSelectedCourses(newSelectedCourses);
     console.log(selectedCourses);
   }
-import SelectedCourses from './components/SelectedCourses/SelectedCourses'
-
-function App() {
-
 
   return (
     <>
@@ -26,13 +22,8 @@ function App() {
           <Courses handleSelect={handleSelect}></Courses>
         </div>
         <div className='md:w-1/4'>
-          <Courses></Courses>
-        </div>
-        <div className='w-1/4'>
-          <SelectedCourses></SelectedCourses>
         </div>
       </main>
-
     </>
   )
 }

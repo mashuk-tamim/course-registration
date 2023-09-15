@@ -7,10 +7,6 @@ Courses.propTypes = {
 };
 
 function Courses({handleSelect}) {
-    
-};
-
-function Courses() {
     const [courses, setCourses] = useState([]);
 
     useEffect(() =>{
