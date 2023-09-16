@@ -6,6 +6,7 @@
 ## Features
 
 - Course Enrollment
+- Total Credit & Total Fees Calculation
 - Live previews
 - Responsive Design
 
