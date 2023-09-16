@@ -1,7 +1,3 @@
-Header.propTypes = {
-    
-};
-
 function Header() {
     return (
         <div>

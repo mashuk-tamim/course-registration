@@ -5,9 +5,7 @@ Course.propTypes = {
     handleSelect: PropTypes.func.isRequired,
 }
 
-
 function Course({ course, handleSelect }) {
-    // console.log(course)
     const { cover, title, details, credit, price } = course;
     return (
         <div className='bg-white rounded-lg p-3 space-y-3 text-[#1c1b1b99] h-auto'>
@@ -16,7 +14,6 @@ function Course({ course, handleSelect }) {
                     <img className='w-full' src={cover} alt={title} />
                     <h2 className='text-xl text-[#1C1B1B] font-semibold'>{title}</h2>
                     <p className='text-sm'>{details}</p>
-
                 </div>
                 <div>
                     <div className='flex justify-between'>

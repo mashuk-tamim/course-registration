@@ -15,10 +15,8 @@ function App() {
   const [priceTotal, setPriceTotal] = useState(0);
 
   const handleSelect = (course, credit, price) => {
-    // console.log(course, credit, price);
     const isCourseSelected = selectedCourses.some((selectedCourse) => selectedCourse.code === course.code);
 
-    // console.log(isCourseSelected);
     if (isCourseSelected) {
       toast.error('You have already selected this course!');
     }
