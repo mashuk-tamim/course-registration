@@ -10,7 +10,7 @@ SelectedCourse.propTypes = {
 function SelectedCourse({selectedCourse, creditTotal, priceTotal, idx}) {
     return (
         <div>
-            <h4 className='text-[#1c1b1b99] text-sm lg:text-base'>{idx+1}. {selectedCourse.title}</h4>
+            <h4 className='text-[#1c1b1b99] text-sm md:text-xs lg:text-base font-medium'>{idx+1}. {selectedCourse.title}</h4>
             <p>{creditTotal}</p>
             <p>{priceTotal}</p>
         </div>
